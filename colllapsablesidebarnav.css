@@ -1,0 +1,54 @@
+/*--Styling the Collapsable Sidebar Navigation--*/
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #FCF9EA;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidebar a {
+    padding: 8px 8px 8px 32px;
+    font-family: "myFirstfont", "sans serif";
+    text-decoration: none;
+    font-size: 1.618rem;
+    color:  #27335d;
+    display: block;
+    transition: ease in 0.5s;
+  }
+  
+  .sidebar a:hover {
+    color: #2c697b;
+  }
+  
+  .sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  .openbtn {
+    position:fixed;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #FCF9EA;
+    color:  #27335d;
+    padding: 10px 15px;
+    border: none;
+  }
+  
+  .openbtn:hover {
+    background-color: #2c697b;
+  }
+  
+  #main {
+    transition: margin-left .5s;
+    padding: 0px;
+  }
